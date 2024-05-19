@@ -1,0 +1,63 @@
+p{
+    text-align: justify;
+    font-size: 23px; 
+    margin: 30px;
+}
+
+font{
+    text-align: left;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 70px;
+    margin: 30px;
+}
+
+body {
+    margin: 30px;
+    ba
+}
+
+img{
+    margin: 30px;
+}
+
+div.final{
+    background-color: black;
+    color: white; 
+}
+
+p.pequeno{
+font-size: 15px;
+color: gray;
+}
+
+li{
+    margin: 30px;
+    text-align: justify;
+}
+
+div.dropdown{
+    margin: 30px;
+}
+
+iframe{
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    align-tracks: center;
+    text-align: center;
+    margin: 30px;
+}
+
+div.meio{
+    background-color: rgb(238, 238, 238);
+}
+
+form{
+    margin: 30px;
+}
+
+h2, h3, h4{
+    margin: 30px;
+
+}
+
