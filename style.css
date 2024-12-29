@@ -1,63 +1,248 @@
-p{
-    text-align: justify;
-    font-size: 23px; 
-    margin: 30px;
-}
-
-font{
-    text-align: left;
-    font-family: "Bebas Neue", sans-serif;
-    font-size: 70px;
-    margin: 30px;
-}
-
 body {
-    margin: 30px;
-    ba
+    margin: 5%;
 }
 
-img{
-    margin: 30px;
+nav {
+    margin-bottom: 50px;
 }
 
-div.final{
+img {
+    margin: 5%;
+    width: 90%;
+}
+
+p {
+    text-align: justify;
+    font-size: 23px;
+    margin: 5%;
+}
+
+.final {
     background-color: black;
-    color: white; 
+    color: white;
 }
 
-p.pequeno{
-font-size: 15px;
-color: gray;
+.lema {
+    font-size: 15px;
+    color: gray;
+    margin-left: 10%;
 }
 
-li{
+li {
     margin: 30px;
+    font-size: 20px;
     text-align: justify;
 }
 
-div.dropdown{
-    margin: 30px;
+div.dropdown {
+    margin: 5%;
 }
 
-iframe{
+h1 {
+    margin-left: 5%;
+    font-family: "Bebas Neue", sans-serif;
+    text-align: left;
+}
+
+h5 {
+    text-align: left;
+    margin-left: 10%;
+    padding-top: 10%;
+}
+
+form {
+    margin: 10%;
+
+}
+
+.pergunta {
+    margin: 10%;
+}
+
+h6 {
+    text-align: left;
+    margin-left: 10%;
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    margin-left: 5%;
+}
+
+.titulo {
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 25px;
+}
+
+.sub-titulo {
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 25px;
+}
+
+.sub-sub-titulo {
+    font-size: 30px;
+    font-weight: 900;
+    margin-bottom: 25px;
+}
+
+.conteudo {
+    margin: 5%;
+}
+
+.card {
+    margin: 5%;
+    border: 1px solid black;
+    padding: 5%;
+}
+
+.carrossel {
+    display: flex;
+    justify-content: center;
     align-items: center;
-    align-self: center;
-    align-content: center;
-    align-tracks: center;
-    text-align: center;
-    margin: 30px;
+    min-height: 100vh;
 }
 
-div.meio{
-    background-color: rgb(238, 238, 238);
+.rapppers {
+    display: flex;
+    width: auto;
 }
 
-form{
-    margin: 30px;
+.mds {
+    display: flex;
+    width: 100%;
+    margin-bottom: 10%;
 }
 
-h2, h3, h4{
-    margin: 30px;
+.mds1 {
+    display: flex;
+    width: 50%;
+}
+
+@media (min-width: 1024px) {
+    body {
+        margin: 2%;
+    }
+
+    .titulo {
+        font-size: 70px;
+        font-weight: 900;
+        margin-bottom: 30px;
+    }
+
+    .sub-titulo {
+        font-size: 60px;
+        font-weight: 900;
+        margin-bottom: 25px;
+    }
+
+    .sub-sub-titulo {
+        font-size: 50px;
+        font-weight: 900;
+        margin-bottom: 25px;
+    }
+
+    section {
+        display: flex;
+    }
+
+    img {
+        margin: 2%;
+        width: 40%;
+    }
+
+    h5 {
+        text-align: left;
+        margin-left: 10%;
+        padding-top: 10%;
+    }
+
+    h6 {
+        text-align: left;
+        margin-left: 10%;
+        padding-top: 5%;
+        padding-bottom: 2%;
+    }
+
+    .lema {
+        font-size: 15px;
+        color: gray;
+        margin-left: 10%;
+    }
+
+    .final {
+        display: flex;
+        width: 100%;
+        background-color: black;
+        color: white;
+    }
+
+    .img-footer {
+        display: block;
+        margin-left: auto;
+        margin-right: 0;
+    }
+
+    .videos {
+        display: flex;
+        width: 100%;
+    }
+
+    .duas-colunas {
+        display: flex;
+        width: 100%;
+        position: relative;
+        height: 100vh;
+    }
+
+    iframe {
+        display: flex;
+        margin: 5%;
+        width: 100%;
+        height: 100%;
+        border: none;
+    }
+
+    .img-50 {
+        width: 90%;
+        margin: 5%;
+    }
+
+    form {
+        margin: 5%;
+        width: 100%;
+        max-width: 90%;
+    }
+
+    .pergunta {
+        margin: 5%;
+    }
+
+    input {
+        width: 70%;
+    }
 
 }
 
+
+@media (min-width: 768px) {
+    body {
+        margin: 2%;
+    }
+
+    .titulo {
+        font-size: 70px;
+        font-weight: 900;
+        margin-bottom: 30px;
+    }
+
+    img {
+        width: cover;
+    }
+
+}
